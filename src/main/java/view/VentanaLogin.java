@@ -66,7 +66,7 @@ public class VentanaLogin extends JFrame {
             String usuario = txtUsuario.getText().trim();
             String contra  = new String(txtContra.getPassword()).trim();
 
-            // Aquí podrías validar credenciales...
+            
             if (usuario.isEmpty() || contra.isEmpty() || (!rbMedico.isSelected() && !rbAdmin.isSelected())) {
                 JOptionPane.showMessageDialog(this, 
                     "Por favor complete usuario, contraseña y seleccione un rol.",

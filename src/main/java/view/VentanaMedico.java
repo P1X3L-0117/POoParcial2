@@ -27,9 +27,9 @@ public class VentanaMedico extends JFrame {
         add(south, BorderLayout.SOUTH);
 
         btnSalir.addActionListener(e -> {
-            // Cerramos esta ventana...
+            // Cerrar ventana
             dispose();
-            // ...y volvemos al login
+            // volvemos al login
             new VentanaLogin(vm).setVisible(true);
         });
     }

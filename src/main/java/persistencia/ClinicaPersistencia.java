@@ -48,7 +48,7 @@ public class ClinicaPersistencia {
         }
     }
 
-    // Cargar médicos
+    // Cargar medicos
     public static List<Medico> cargarMedicos() throws IOException {
         List<Medico> medicos = new ArrayList<>();
         File archivo = new File(MEDICOS_FILE);
